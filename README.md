@@ -1,0 +1,2 @@
+# webrtc-simple
+简单的webrtc实践记录，Android做客户端，java和python分别作为p2p协议的两个服务器
