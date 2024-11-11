@@ -12,7 +12,10 @@ webrtc-simple
 - 本项目是一个简单的webrtc实践项目，主要用于学习webrtc的使用，以及webrtc的一些原理
 - 项目分为三个部分，分别是Android端的webrtc推流，java端的webrtc服务器，python端的webrtc拉流
   - java实现的webrtc服务器主要用于处理sdp的交换，只作为中转使用，具体推拉流需要客户端来建立P2P连接
-
+### webrtc的原理介绍
+![webrtc](./pic/webrtc的原理图.jpg)
+### 结果展示
+- 最终效果可以将延迟降到200ms！！！
 ### 碎碎谈
 - webrtc的服务器与Android端借助于Android Studio开发实战：从零基础到APP上线这本书（第三版）
 - python的webrtc拉流部分是自己实现的（webrtc的相关可用资源太少了！！！！），主要使用了python的一个webrtc库，具体的实现可以参考代码
